@@ -346,9 +346,11 @@ button {
 /**
 * news
 */
+
 .news__link:hover {
   color: #d86324;
 }
+
 .news__link:hover .news__thumbnail {
   -webkit-filter: grayscale(60%);
   filter: grayscale(60%);
@@ -410,6 +412,13 @@ button {
   line-height: 1.4;
 }
 
+.page-list .news {
+  margin: 0 auto 20px auto;
+  border-bottom: 1px solid #b0b0c5;
+  padding-bottom: 20px;
+  max-width: 320px;
+}
+
 .news--main {
   padding-bottom: 35px;
   border-bottom: 1px solid #b0b0c5;
@@ -462,22 +471,22 @@ button {
 /**
 * single
 */
-.single {
+.page-single {
   text-align: justify;
 }
 
-.single__header {
+.page-single__header {
   margin-bottom: 75px;
 }
 
-.single__title {
+.page-single__title {
   margin: 0;
   font-size: 5.6em;
   line-height: 1.4;
   font-weight: 500;
 }
 
-.single__subtitle {
+.page-single__subtitle {
   margin: 0;
   font-size: 3.2em;
   font-weight: 200;
