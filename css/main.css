@@ -71,9 +71,6 @@ h1, h2, h3, h4, h5, h6 {
 a, button {
   color: #d86324;
   text-decoration: none;
-  -webkit-transition: 200ms color;
-  -o-transition: 200ms color;
-  transition: 200ms color;
 }
 a:hover, button:hover {
   text-decoration: underline;
@@ -232,7 +229,7 @@ button {
   margin-left: auto;
   margin-bottom: 75px;
   width: 960px;
-  height: 300px;
+  height: 350px;
   background: url("../img/header-bg.jpeg");
   background-size: cover;
   background-position: center bottom;
@@ -244,8 +241,8 @@ button {
   display: block;
   margin: 0;
   position: absolute;
-  padding-top: 26px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 25px;
   bottom: 0;
   width: 100%;
   text-align: center;
@@ -268,4 +265,23 @@ button {
   font-size: 4.2em;
   font-weight: 100;
   text-shadow: 1px 1px 5px #000;
+}
+
+
+.header__nav {
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.nav-main__item {
+  display: inline-block;
+}
+
+.nav-main__link {
+  display: block;
+  padding: 10px;
+  color: #fff;
+}
+.nav-main__link:hover {
+  text-decoration: none;
+  color: #d86324;
 }
