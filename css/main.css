@@ -358,34 +358,11 @@ button {
   -o-transition-delay: 0ms;
   transition-delay: 0ms;
 }
-.news__link:hover .news__thumbnail::after {
-  -webkit-transition-delay: 200ms;
-  -o-transition-delay: 200ms;
-  transition-delay: 200ms;
-  opacity: 1;
-}
+
 
 .news__thumbnail {
   margin-bottom: 10px;
-  -webkit-filter: grayscale(0);
   filter: grayscale(0);
-  -webkit-transition: 200ms 200ms filter ease-in-out;
-  -o-transition: 200ms 200ms filter ease-in-out;
-  transition: 200ms 200ms filter ease-in-out;
-}
-.news__thumbnail::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: #d86324;
-  mix-blend-mode: color;
-  opacity: 0;
-  -webkit-transition: 200ms opacity ease-in-out;
-  -o-transition: 200ms opacity ease-in-out;
-  transition: 200ms opacity ease-in-out;
 }
 
 .news__image {
