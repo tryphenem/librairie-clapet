@@ -6,7 +6,6 @@
 */
 
 body {
-  max-width: 960px;
   margin: auto;
   border-bottom: 5px solid #d9d9d9;
   padding-bottom: 75px;
@@ -197,7 +196,14 @@ button {
 
 .chapo {
   font-size: 1.6em;
-  color: pink;
+  font-family: WorkSans; 
+  font-size: 25px; 
+  color: black; 
+  margin-bottom: 20px;
+  width: 960px;
+  height: 116px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .full-width {
@@ -218,13 +224,12 @@ button {
 * header
 */
 .header {
-  position: relative;
-  margin-right: auto;
-  margin-left: auto;
+  position: relative;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+  margin-right: 0px;
+  margin-left: 0px;
   margin-bottom: 35px;
-  width: 960px;
   height: 350px;
-  background: url("../img/header-bg.jpeg");
+  background: url("/Users/tryphenemassamba/Desktop/img/Header-bg.png");
   background-size: cover;
   background-position: center bottom;
   overflow: hidden;
