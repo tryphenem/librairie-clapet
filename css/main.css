@@ -90,6 +90,7 @@ button {
 */
 
 .container {
+  text-align : center; 
   margin:auto;
   padding: 0 15px;
   
@@ -292,57 +293,31 @@ button {
 * separator
 */
 .separator {
-  
+  display: block;
+  margin: 50px auto;
+  width: 200px;
+  height: 1px;
+  border: none;
   background-color: #d9d9d9;
 }
 
-
 /**
-* honey-pot
+* news-list
 */
-
-.honey-pot-list {
-  text-align: center;
+.news-list {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  margin-bottom: 35px;
 }
 
-.honey-pot {
-  display: inline-block;
-  margin: 0 30px 35px 30px;
-  text-align: center;
+.news-list .news-list__news--main {
+  grid-column: span 3;
 }
 
-.honey-pot__link {
-  color: #303044;
-}
-.honey-pot__link:hover {
-  color: #d86324;
-}
-
-.honey-pot__thumbnail {
-  position: relative;
-  display: inline-block;
-  margin-bottom: 10px;
-  filter: grayscale(0);
-}
-
-.honey-pot__thumbnail:hover {
-  filter: grayscale(60%);
-}
-
-.honey-pot__thumbnail img {
-  display: block;
-}
-
-.honey-pot__title {
-  margin: 0;
-  font-size: 2em;
-  font-weight: bold;
-}
-
-.honey-pot__subtitle {
-  margin: 0;
-  font-size: 1.6em;
-  font-weight: 200;
+.news-list__news {
+  grid-column: span 1;
 }
 
 
@@ -393,11 +368,10 @@ button {
   line-height: 1.4;
 }
 
-.page-list .news {
-  margin: 0 auto 20px auto;
-  border-bottom: 1px solid #b0b0c5;
-  padding-bottom: 20px;
-  max-width: 320px;
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 30px;
 }
 
 .news--main {
@@ -414,24 +388,7 @@ button {
   min-width: 360px;
 }
 
-/**
-* news-list
-*/
-.news-list {
-  display: grid;
-  grid-gap: 35px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  margin-bottom: 35px;
-}
 
-.news-list .news-list__news--main {
-  grid-column: span 3;
-}
-
-.news-list__news {
-  grid-column: span 1;
-}
 
 /**
 * -----------
@@ -478,4 +435,53 @@ button {
 .index-title {
   text-align: center;
   margin-bottom: 35px;
+  font-family: WorkSans;  
+}
+/**
+* honey-pot
+*/
+
+.honey-pot-list {
+  text-align: center;
+  display: flex;
+}
+
+.honey-pot {
+  display: inline-block;
+  margin:auto;
+  text-align: center;
+}
+
+.honey-pot__link {
+  color: #303044;
+}
+.honey-pot__link:hover {
+  color: #d86324;
+}
+
+.honey-pot__thumbnail {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+  filter: grayscale(0);
+}
+
+.honey-pot__thumbnail:hover {
+  filter: grayscale(60%);
+}
+
+.honey-pot__thumbnail img {
+  display: block;
+}
+
+.honey-pot__title {
+  margin: 0;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.honey-pot__subtitle {
+  margin: 0;
+  font-size: 1.6em;
+  font-weight: 200;
 }
