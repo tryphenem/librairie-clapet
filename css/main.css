@@ -92,12 +92,12 @@ button {
 .container {
   text-align : center; 
   margin:auto;
-  padding: 0 15px;
+  
   
 }
 
 .text-container {
-  margin: auto;
+  margin: 30px ;
   max-width: 960px;
  
 }
@@ -221,7 +221,13 @@ button {
 * Components
 * -----------
 */
-
+.news--main {
+  width: 1197px;
+  height: 232px;
+   width: 372px;
+  height: 232px;
+  object-fit: contain;
+}
 
 /**
 * header
@@ -280,7 +286,7 @@ button {
 
 .nav-main__link {
   display: block;
-  padding: 10px;
+  padding: auto;
   color: #fff;
 }
 .nav-main__link:hover {
@@ -350,7 +356,10 @@ button {
 }
 
 .news__date {
-  margin: 0;
+  margin-top: 0px;
+  margin-right: 22px ;
+  margin-left: 412px;
+  text-align:left; 
   font-size: 1.8em;
   color: #e8a27d;
 }
@@ -358,14 +367,23 @@ button {
 .news__title {
   margin: 0 0 15px;
   font-weight: bold;
+  text-align: left; 
   font-size: 2em;
   line-height: 1.4;
 }
 
 .news__text {
-  margin: 0;
-  font-size: 1.4em;
-  line-height: 1.4;
+  width: 784.6px;
+  height: 84px;
+  margin-top:89px;
+  margin-bottom: 59px; 
+  font-family: WorkSans;
+  font-size: 24px;
+  text-align: left; 
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+  
 }
 
 img {
