@@ -27,6 +27,7 @@ li {
   margin-left: 15px;
   width: 600px;
   height: 216px;
+  margin-bottom: -28px;
   font-family: WorkSans;
   font-size: 20px;
   font-weight: normal;
@@ -39,6 +40,67 @@ li {
 }
 
 .Jim {
+  margin-left: 15px;
+  width: 600px;
+  font-family: WorkSans;
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #e8a27d;
+}
+
+.Christine {
+  margin-top: -19px;
+  width: 600px;
+  height: 19px;
+  font-family: WorkSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #1a1a1a;
+}
+
+
+.Une {
+  margin-left: 15px;
+  width: 584px;
+  height: 87px;
+  font-family: WorkSans;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #d9926c;
+}
+
+
+
+.Weekly {
+  width: 600px;
+  height: 19px;
+  margin-top: -43px;
+  font-family: WorkSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #1a1a1a;
+}
+
+.JimLynch {
   margin-left: 15px;
   width: 600px;
   height: 216px;
@@ -406,8 +468,6 @@ button {
   color: #1a1a1a;
   
 }
-
-
 
 img {
   max-width: 100%;
