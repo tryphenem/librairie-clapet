@@ -23,9 +23,37 @@ li {
   margin: 5px 0;
 }
 
-p {
-  margin: 15px 0;
+.paragraphe {
+  margin-left: 15px;
+  width: 600px;
+  height: 216px;
+  font-family: WorkSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #1a1a1a;
 }
+
+.Jim {
+  margin-left: 15px;
+  width: 600px;
+  height: 216px;
+  font-family: WorkSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #1a1a1a;
+}
+
+
 
 b, strong, optgroup {
   font-weight: 700;
@@ -108,6 +136,10 @@ button {
 
 .column {
   max-width: 100%;
+}
+
+.cover_large {
+  min-width: 50%;
 }
 
 .column + .column {
@@ -196,17 +228,18 @@ button {
 }
 
 .chapo {
-  font-size: 1.6em;
-  font-family: WorkSans; 
-  font-size: 20px; 
-  color: black; 
-  margin-bottom: 20px;
-  width: 960px;
-  height: 116px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 600px;
+  height: 87px;
+  margin-left: 15px; 
+  font-family: WorkSans;
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
   letter-spacing: normal;
-  text-align: center;
+  text-align: justify;
+  color: #1a1a1a;
 }
 
 .full-width {
@@ -221,13 +254,6 @@ button {
 * Components
 * -----------
 */
-.news--main {
-  width: 1197px;
-  height: 232px;
-   width: 372px;
-  height: 232px;
-  object-fit: contain;
-}
 
 /**
 * header
@@ -269,7 +295,8 @@ button {
 }
 
 .header__subtitle {
-  margin: 0;
+  font-family: Montserrat;
+  text-align: center; 
   font-size: 3.2em;
   font-weight: 100;
   text-shadow: 1px 1px 5px #000;
@@ -286,7 +313,7 @@ button {
 
 .nav-main__link {
   display: block;
-  padding: auto;
+  padding: 30px;
   color: #fff;
 }
 .nav-main__link:hover {
@@ -357,8 +384,6 @@ button {
 
 .news__date {
   margin-top: 0px;
-  margin-right: 22px ;
-  margin-left: 412px;
   text-align:left; 
   font-size: 1.8em;
   color: #e8a27d;
@@ -373,11 +398,7 @@ button {
 }
 
 .news__text {
-  width: 784.6px;
-  height: 84px;
-  margin-top:89px;
-  margin-bottom: 59px; 
-  font-family: WorkSans;
+  font-family: 'Work Sans';
   font-size: 24px;
   text-align: left; 
   line-height: normal;
@@ -386,10 +407,12 @@ button {
   
 }
 
+
+
 img {
   max-width: 100%;
   height: auto;
-  margin: 30px;
+  margin: auto;
 }
 
 .news--main {
@@ -453,7 +476,7 @@ img {
 .index-title {
   text-align: center;
   margin-bottom: 35px;
-  font-family: WorkSans;  
+  font-family: 'Work Sans';  
 }
 /**
 * honey-pot
