@@ -9,10 +9,15 @@ body {
   margin: auto;
   border-bottom: 5px solid #d9d9d9;
   padding-bottom: 75px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: WorkSans , Arial, sans-serif;
   font-weight: 400;
   color: #303044;
+  text-align: center
 }
+
+
+
+
 
 p, li, td, th, textarea, caption, pre, blockquote, label, input, select, textarea {
   font-size: 1.4em;
@@ -115,6 +120,22 @@ li {
   color: #1a1a1a;
 }
 
+.latin {
+  margin-left: 183px;
+  width: 960px;
+  height: 360px;
+  font-family: WorkSans;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: justify;
+  color: #1a1a1a;
+} 
+
+
 
 
 b, strong, optgroup {
@@ -155,6 +176,7 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1;
 }
@@ -179,16 +201,22 @@ button {
 * -----------
 */
 
-.container {
+.containerPoulpe {
   text-align : center; 
-  margin:auto;
+  margin-right: 80px; 
   
   
 }
 
 .text-container {
-  margin: 30px ;
-  max-width: 960px;
+  width: 1028px;
+  font-family: WorkSans;
+  font-size: 25px;
+  font-weight: normal;
+
+  text-align: center;
+  color: #1a1a1a;
+ 
  
 }
 
@@ -290,18 +318,18 @@ button {
 }
 
 .chapo {
-  width: 600px;
-  height: 87px;
-  margin-left: 15px; 
+  width: 800px;
+  margin-left: 250px;
+  margin-right: 200px;
+  margin-bottom: 50px;
   font-family: WorkSans;
   font-size: 25px;
   font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: justify;
   color: #1a1a1a;
+}
+
+.chapo-justified {
+  text-align: justify;  
 }
 
 .full-width {
@@ -469,11 +497,18 @@ button {
   
 }
 
-img {
-  max-width: 100%;
+.coverlargepoulpe {
   height: auto;
-  margin: auto;
+  margin-left: 120px;
+  margin-right:120px; 
 }
+
+
+.separator-cross {
+  margin-left: 623px;
+  margin-right: 623px; 
+}
+
 
 .news--main {
   padding-bottom: 35px;
@@ -501,9 +536,6 @@ img {
 /**
 * single
 */
-.page-single {
-  text-align: justify;
-}
 
 .page-single__header {
   margin-bottom: 75px;
@@ -585,4 +617,35 @@ img {
   margin: 0;
   font-size: 1.6em;
   font-weight: 200;
+}
+.img2 {
+  max-width: 88%;
+  height: auto;
+  margin-left: 57px; 
+}
+
+.container .separator-cross{
+}
+
+.separatorcross2 {
+  margin-top: 75px;
+  margin-left: 541px;
+  margin-right: 564.8px;
+}
+  
+
+.Noustrouver {
+width: 600px;
+margin: auto;
+margin-bottom: 50px;
+font-family: WorkSans;
+font-size: 25px;
+font-weight: normal;
+}
+
+
+.titre
+{
+text-align: center;
+font-size: 30px;
 }
