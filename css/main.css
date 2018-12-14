@@ -629,8 +629,8 @@ button {
 
 .separatorcross2 {
   margin-top: 75px;
-  margin-left: 541px;
-  margin-right: 564.8px;
+  margin-left: 515px;
+  margin-right: 564.8px
 }
   
 
@@ -644,8 +644,14 @@ font-weight: normal;
 }
 
 
-.titre
+.titreNous
 {
 text-align: center;
 font-size: 30px;
+}
+
+map {
+  width: 1439px;
+  height: 731px;
+  object-fit: contain;
 }
