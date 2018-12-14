@@ -263,6 +263,7 @@ button {
 .link-block {
   display: block;
   color: inherit;
+  margin-left: 15px;
 }
 .link-block:hover {
   text-decoration: none;
@@ -457,6 +458,20 @@ button {
   width: 100%;
 }
 
+
+
+.news__imagemoyenne {
+  display: block;
+  min-width: 420px;
+}
+
+.news__imagegrande {
+  display: block;
+  min-width: 420px;
+}
+
+
+
 .news__date {
   margin-top: 0px;
   text-align:left; 
@@ -501,7 +516,7 @@ button {
 .news--main .news__thumbnail {
   margin-bottom: 0;
   margin-right: 40px;
-  min-width: 370px;
+  min-width: 420px;
 }
 
 
@@ -653,21 +668,24 @@ map {
   grid-column: span 4;
 }
 
-  
 .news-list-1  {
   display: grid;
   grid-gap: 35px;
   grid-template-columns: repeat(4, 1fr); 
   grid-template-rows: auto;
   margin-bottom: 35px; 
+  margin-right: 120px;
+  margin-left: 120px;
 }
-
 
 .news-moyenne {
   grid-column: span 2;
 }
 
-
 .news-grande {
   grid-column: span 4;
 }
+
+
+
+
