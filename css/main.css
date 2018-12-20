@@ -192,7 +192,7 @@ button {
 }
 
 .text-container {
-  width: 1028px;
+  width: 1270px;
   font-family: WorkSans;
   font-size: 25px;
   font-weight: normal;
@@ -562,9 +562,11 @@ button {
 */
 .index-title {
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 75px;
   font-family: 'Work Sans';  
 }
+
+
 /**
 * honey-pot
 */
